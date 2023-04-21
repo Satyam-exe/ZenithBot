@@ -1,0 +1,31 @@
+### Does the bot work?
+POST http://localhost:8000/get-reply/
+Content-Type: application/json
+
+{
+  "query": "Hello"
+}
+
+### Does the bot know who he is?
+POST http://localhost:8000/get-reply/
+Content-Type: application/json
+
+{
+  "query": "Who are you?"
+}
+
+### Giving the bot my name
+POST http://localhost:8000/get-reply/
+Content-Type: application/json
+
+{
+  "query": "My name is Satyam"
+}
+
+### Does the bot remember my name?
+POST http://localhost:8000/get-reply/
+Content-Type: application/json
+
+{
+  "query": "What is my name?"
+}
